@@ -25,7 +25,7 @@ function beolvas(){
         type: "GET",
         url: "feldolgoz.php", 
         success: function(result){
-            telefonkonyvem=JSON.parse(result);
+            telefonkonyvem = JSON.parse(result);
             console.log(telefonkonyvem);
             
         },
@@ -37,9 +37,9 @@ function beolvas(){
 
 function adBeir(){
     var szemely= {
-        nev=$("#nev").val(),
-        tel=$("#tel").val(),
-        kep=$("#kep").val()
+        nev:$("#nev").val(),
+        tel:$("#tel").val(),
+        kep:$("#kep").val()
     };
     
     $.ajax({
