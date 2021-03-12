@@ -35,6 +35,23 @@ and open the template in the editor.
                 <button id="kuld">Küld</button>
 
             </section>
+            
+            <section class=" szerkesztes elrejt">
+                <!--<form class="urlap elrejt"></form>-->
+                <p for="id2">ID:</p>
+                <input type="text" id="id2" name="id2">
+                <p for="nev2">név:</p>
+                <input type="text" id="nev2" name="nev">
+                <p for="tel2">tel:</p>
+                <input type="text" id="tel2" name="tel">
+                <p for="kep2">kép:</p>
+                <input type="text" id="kep2" name="kep">
+                <br>
+                <button id="modosit">Módosít</button>
+                <br>
+                <button id="megse">Mégse</button>
+
+            </section>
             <article>
 
 
